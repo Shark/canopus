@@ -215,7 +215,6 @@ const (
 // Interfaces
 type CoapServer interface {
 	ListenAndServe(addr string)
-	ListenAndServeDTLS(addr string)
 	Stop()
 
 	Get(path string, fn RouteHandler) Route
