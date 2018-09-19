@@ -2,7 +2,6 @@ package canopus
 
 import (
 	"bytes"
-	"crypto/rand"
 	"log"
 	"net"
 	"strconv"
